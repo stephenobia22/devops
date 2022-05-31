@@ -49,8 +49,8 @@ public class vprofileHomePagePO extends Variables {
 			//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 			if (eHeadding.equals(aHeadding)) {
 				
-				    userName=driver.findElement(By.name("userName"));
-				    password=driver.findElement(By.name("Password"));
+				    userName=driver.findElement(By.name("username"));
+				    Password=driver.findElement(By.name("password"));
 				    signin=driver.findElement(By.xpath("/html/body/div[2]/form/div/button"));
 				
 			}
