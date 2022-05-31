@@ -50,7 +50,7 @@ public class vprofileHomePagePO extends Variables {
 			if (eHeadding.equals(aHeadding)) {
 				
 				    userName=driver.findElement(By.name("username"));
-				    Password=driver.findElement(By.name("password"));
+				    password=driver.findElement(By.name("password"));
 				    signin=driver.findElement(By.xpath("/html/body/div[2]/form/div/button"));
 				
 			}
